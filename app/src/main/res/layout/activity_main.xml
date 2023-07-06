@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Activity_Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/search_border"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonInMain"
+            style="@style/myButton"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/icon1" />
+
+        <EditText
+            android:id="@+id/cityIdInMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/search_border"
+            android:hint="请输入城市名"
+            android:inputType="text"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey" />
+
+        <Button
+            android:id="@+id/listInMain"
+            style="@style/myButton"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/icon5" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/favoritesListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

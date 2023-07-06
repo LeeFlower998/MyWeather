@@ -1,0 +1,70 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="北京市" />
+    <item
+        android:title="天津市" />
+    <item
+        android:title="河北省" />
+    <item
+        android:title="山西省" />
+    <item
+        android:title="内蒙古自治区" />
+    <item
+        android:title="辽宁省" />
+    <item
+        android:title="吉林省" />
+    <item
+        android:title="黑龙江省" />
+    <item
+        android:title="上海市" />
+    <item
+        android:title="江苏省" />
+    <item
+        android:title="浙江省" />
+    <item
+        android:title="安徽省" />
+    <item
+        android:title="福建省" />
+    <item
+        android:title="江西省" />
+    <item
+        android:title="山东省" />
+    <item
+        android:title="河南省" />
+    <item
+        android:title="湖北省" />
+    <item
+        android:title="湖南省" />
+    <item
+        android:title="广东省" />
+    <item
+        android:title="广西壮族自治区" />
+    <item
+        android:title="海南省" />
+    <item
+        android:title="重庆市" />
+    <item
+        android:title="四川省" />
+    <item
+        android:title="贵州省" />
+    <item
+        android:title="云南省" />
+    <item
+        android:title="西藏自治区" />
+    <item
+        android:title="陕西省" />
+    <item
+        android:title="甘肃省" />
+    <item
+        android:title="青海省" />
+    <item
+        android:title="宁夏回族自治区" />
+    <item
+        android:title="新疆维吾尔自治区" />
+    <item
+        android:title="台湾省" />
+    <item
+        android:title="香港特别行政区" />
+    <item
+        android:title="澳门特别行政区" />
+</menu>
